@@ -1,0 +1,144 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #2e2f42;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol {
+  margin: 0
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+/* Task 1 */
+
+.item {
+  background-color: #F6F6FE;
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  margin-bottom: 24px
+
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+
+.item-child {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+}
+
+.item-child:last-child {
+  margin: 0;
+}
+
+/* Task 2 */
+
+.gallery-image {
+  width: 360px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Task 3 */
+
+#name-output, .hidden-text {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+#name-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  padding: 5px 10px;
+  margin-bottom: 16px;
+}
+
+/* Task 4*/
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.submit-btn {
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  width: 86px;
+}
+
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background: #6c8cff;
+}
+
+.form-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin: 8px 0;
+  display: flex;
+  padding: 5px 10px;
+}
+
+.form-input-second {
+  margin-bottom: 16px;
+}
+
+/* Task 5 */
+
+
+/* Task 6 */
+
